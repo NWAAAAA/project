@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      background-color: #007bff;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Simple Website</h2>
+    <p>This is a clean and minimal HTML site template.</p>
+  </section>
+
+  <section class="content">
+    <div class="card">
+      <h3>Card Title 1</h3>
+      <p>This is some example text inside a content card. You can put anything here.</p>
+    </div>
+    <div class="card">
+      <h3>Card Title 2</h3>
+      <p>This is another example card with a different text content.</p>
+    </div>
+    <div class="card">
+      <h3>Card Title 3</h3>
+      <p>Cards are flexible and easy to style. Add as many as you like!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Simple Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
